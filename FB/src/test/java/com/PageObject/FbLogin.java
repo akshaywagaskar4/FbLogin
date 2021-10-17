@@ -55,12 +55,12 @@ public class FbLogin {
 		//js.executeAsyncScript("scroll, (0,-500)");
 		
 	}
+	
 	public void setlogbtn() {
 		logbtn.click();
 	}
 	public void logout() {
 		logout.click();
 	}
-			
 
 }

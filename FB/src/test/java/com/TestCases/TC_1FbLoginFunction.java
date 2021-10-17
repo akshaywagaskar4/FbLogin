@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import com.PageObject.FbLogin;
 
+
 public class TC_1FbLoginFunction extends BaseClass{
 	
 	@Test
@@ -22,6 +23,8 @@ public class TC_1FbLoginFunction extends BaseClass{
 		//fb.scroll();
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("window.scrollBy(0,1000)");
+//		FbLogout lg= new FbLogout(driver);
+//
 		fb.setlogbtn();
 		Thread.sleep(10000);
 		fb.logout();

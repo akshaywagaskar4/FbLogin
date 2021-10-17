@@ -8,7 +8,7 @@ public class ReadConfig {
 	
 	Properties p;
 	 public ReadConfig() {
-		 File f=new File("E:\\Velocity\\Eclipse_Workspace_2021_03\\FB\\Configuration\\Config.properties");
+		 File f=new File("C:\\Users\\AKSHAY-PC\\git\\FbLogin\\FB\\Configuration\\Config.properties");
 	
 	 try {
 		 FileInputStream input= new FileInputStream(f);
